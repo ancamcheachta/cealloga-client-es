@@ -1,0 +1,10 @@
+{
+   "body":"(ceallog)=>{let colours=ceallog.vars.colours,coloursMap={},chartData={labels:[],series:[]};if(colours){colours.forEach(c=>coloursMap[c.name]=coloursMap[c.name]+1||1)}for(var name in coloursMap){let total=coloursMap[name];chartData.labels.push(name);chartData.series.push(total)}return chartData;}",
+   "compiled":true,
+   "created_date":"2018-01-18T20:41:04.849Z",
+   "id":"5a610660158ffae3135b7c7e",
+   "label":"Colour Total Bar Chart",
+   "name":"barchart",
+   "published":true,
+   "service":"/cealloga/barchart"
+}

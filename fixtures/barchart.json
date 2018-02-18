@@ -1,0 +1,5 @@
+{
+   "name":"barchart",
+   "label":"Colour Total Bar Chart",
+   "body":"(ceallog)=>{let colours=ceallog.vars.colours,coloursMap={},chartData={labels:[],series:[]};if(colours){colours.forEach(c=>coloursMap[c.name]=coloursMap[c.name]+1||1)}for(var name in coloursMap){let total=coloursMap[name];chartData.labels.push(name);chartData.series.push(total)}return chartData;}"
+}
